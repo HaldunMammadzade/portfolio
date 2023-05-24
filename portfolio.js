@@ -90,7 +90,7 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Azerbaijan Technological University",
+		schoolName: "Azerbaijan Ca University",
 		subHeader: "Bachelor of Bussiness Managament",
 		duration: "September 2013 - April 2017",
 	},
@@ -122,8 +122,8 @@ export const projects = [
 	{
 		name: "developer-portfolio",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		// link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		github: "https://github.com/1haldun100/developer-portfolio",
+		// link: "https://developer-portfolio-1haldun100.vercel.app/",
 	}
 ];
 
@@ -150,12 +150,10 @@ export const seoData = {
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Haldun Mammadzada",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	url: "https://developer-portfolio-1haldun100.vercel.app",
 	keywords: [
 		"Haldun ",
 		"Haldun Mammadzada",
-		"@1hanzla100",
-		"1hanzla100",
 		"Portfolio",
 		"Haldun Portfolio ",
 		"Haldun Mammadzada Portfolio",
