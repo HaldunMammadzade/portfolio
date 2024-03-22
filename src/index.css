@@ -225,3 +225,19 @@
   height: 1000px;
   right: 0;
 }
+
+@media only screen and (max-width: 768px) { 
+  .main-img {
+    bottom: -161px;
+    right: -89px;
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 576px) { 
+  .main-img {
+    bottom: -128px;
+    right: -108px;
+    height: fit-content;
+  }
+}
