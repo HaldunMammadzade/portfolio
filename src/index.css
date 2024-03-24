@@ -241,5 +241,10 @@
     height: 100%;
     object-fit: contain;
   }
+  #projects, #about, #contact {
+    margin-left: 30px;
+    font-size: 50px;
+  }
+  
 }
 
