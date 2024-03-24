@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[80%] h-[80%] object-contain"
         />
       </div>
     }>
@@ -42,6 +42,11 @@ const ExperienceCard = ({ experience }) => (
       <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
         {experience.title}
       </h3>
+      <p
+        className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
+        style={{ margin: 0 }}>
+        {experience.time}
+      </p>
       <p
         className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
         style={{ margin: 0 }}>

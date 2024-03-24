@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { haldun, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -35,6 +35,7 @@ const Hero = () => {
           </div>
 
           <div>
+          
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               Hi, I'm{' '}
@@ -84,8 +85,8 @@ const Hero = () => {
         <div>
           <img
             className="absolute main-img "
-            src={shaq}
-            alt="shaquille"
+            src={haldun}
+            alt="haldunuille"
           />
         </div>
       </section>

@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  next,
   redux,
   tailwind,
   nodejs,
@@ -17,16 +18,20 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
+  agros,
   leaderboard,
   math,
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  va,
+  webzool,
+  apertech,
+  mina,
+  div,
+  irshi,
+  etsn,
+  software,
 } from '../assets';
 
 export const navLinks = [
@@ -85,6 +90,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: 'Next JS',
+    icon: next,
+  },
+  {
     name: 'Redux Toolkit',
     icon: redux,
   },
@@ -92,10 +101,7 @@ const technologies = [
     name: 'Tailwind CSS',
     icon: tailwind,
   },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
+  
   {
     name: 'Rails',
     icon: rubyrails,
@@ -125,39 +131,78 @@ const technologies = [
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    company_name: ' Virtual Azerbaijan group of Companies',
+    icon: va,
+    time: 'Full Time',
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2020 - Mar 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Front-End Developer',
+    company_name: 'MinA Azerbaijan',
+    time: 'Full Time',
+    icon: mina,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jan 2023 - May 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Front-End Developer',
+    company_name: 'Webzool  Creative',
+    time: 'Remote',
+    icon: webzool,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Jan 2023 - Jan 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Lead Front-End Developer',
+    company_name: 'Apertech ERP Solutions',
+    time: 'Full Time',
+    icon: apertech,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'May 2023 - Oct 2023',
   },
+
+  {
+    title: 'Front-End Instructor',
+    company_name: 'Div Academy',
+    time: 'Part Time',
+    icon: div,
+    iconBg: '#333333',
+    date: 'Apr 2023 - Aug 2023',
+  },
+  {
+    title: 'Front-End Developer',
+    company_name: 'IRSHI',
+    time: 'Remote ',
+    icon: irshi,
+    iconBg: '#333333',
+    date: 'Jan 2024 - Present',
+  },
+  {
+    title: 'Front-End Instructor',
+    company_name: 'Software Village',
+    time: 'Part Time',
+    icon: software,
+    iconBg: '#333333',
+    date: 'Oct 2023 - Present',
+  },
+  {
+    title: 'Front-End Developer',
+    company_name: 'Ministry of Ecology and Natural Resources of Azerbaijan',
+    time: 'Full Time',
+    icon: etsn,
+    iconBg: '#333333',
+    date: 'Oct 2023 - Present',
+  },
+
+
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Agros',
+    description: 'Agriculture management system with React js',
     tags: [
       {
         name: 'react',
@@ -172,15 +217,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: agros,
+    repo: null,
+    demo: 'https://agros.az',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Anama',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Mine Action Agency of the Republic of Azerbaijan with ADMIN panel, was use Next js',
     tags: [
       {
         name: 'react',
@@ -196,8 +241,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: null,
+    demo: 'https://anama.gov.az ',
   },
   {
     id: 'project-3',
