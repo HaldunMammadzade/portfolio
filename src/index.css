@@ -238,7 +238,8 @@
   .main-img {
     bottom: -128px;
     right: -108px;
-    height: fit-content;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
