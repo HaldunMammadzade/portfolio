@@ -102,18 +102,18 @@ const technologies = [
     icon: tailwind,
   },
   
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
