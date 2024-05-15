@@ -39,7 +39,7 @@ const ProjectCard = ({
         <div className="flex items-center justify-start pr-[4.5rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
+        whitespace-nowrap sm:text-[20px] text-[18px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
             {name}
@@ -73,7 +73,7 @@ const ProjectCard = ({
             </div>
 
             <h2
-              className="font-bold sm:text-[32px] text-[24px] 
+              className="font-bold sm:text-[22px] text-[20px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">
               {name}
             </h2>

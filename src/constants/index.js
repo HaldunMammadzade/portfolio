@@ -54,18 +54,18 @@ const services = [
     title: 'Frontend Developer',
     icon: frontend,
   },
-  {
-    title: 'Backend Developer',
-    icon: backend,
-  },
+  // {
+  //   title: 'Backend Developer',
+  //   icon: backend,
+  // },
   {
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
 ];
 
 const technologies = [
@@ -201,116 +201,141 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
+    name: 'Timesoft',
+    description: 'Official site of company',
+    image: agros,
+    repo: null,
+    demo: 'https://timesoft.az',
+  },
+  {
+    id: 'project-2',
     name: 'Agros',
     description: 'Agriculture management system with React js',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
     image: agros,
     repo: null,
     demo: 'https://agros.az',
   },
   {
-    id: 'project-2',
+    id: 'project-3',
     name: 'Anama',
     description:
       'Mine Action Agency of the Republic of Azerbaijan with ADMIN panel, was use Next js',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
     image: leaderboard,
     repo: null,
-    demo: 'https://anama.gov.az ',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    demo: 'https://anama.gov.az',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    name: 'Machame Fast Food Restaurant',
+    description:
+      'A state project developed as food delivery , was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://machame.ge',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'BitBetWin',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitbetwin.cc',
   },
+  {
+    id: 'project-6',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  {
+    id: 'project-7',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  {
+    id: 'project-8',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  // {
+  //   id: 'project-3',
+  //   name: 'Math Magicians',
+  //   description: 'This is a single-page calculator app built with React',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: math,
+  //   repo: 'https://github.com/shaqdeff/Math-Magicians',
+  //   demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+  // },
+  // {
+  //   id: 'project-4',
+  //   name: 'Movie Metro',
+  //   description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: movie,
+  //   repo: 'https://github.com/shaqdeff/Movie-Metro',
+  //   demo: 'https://movie-metro.netlify.app/',
+  // },
+  // {
+  //   id: 'project-5',
+  //   name: 'Nyeusi Fest Site',
+  //   description:
+  //     'This is a demo concert website for a music festival called Nyeusi.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  // },
 ];
 
 export { services, technologies, experiences, projects };
