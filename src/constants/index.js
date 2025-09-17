@@ -204,7 +204,7 @@ const projects = [
     name: 'Timesoft',
     description: 'Official site of company',
     image: agros,
-    repo: null,
+    repo: 'https://timesoft.az',
     demo: 'https://timesoft.az',
   },
   {
@@ -269,73 +269,43 @@ const projects = [
     repo: null,
     demo: 'https://bitspinwin.co',
   },
-  // {
-  //   id: 'project-3',
-  //   name: 'Math Magicians',
-  //   description: 'This is a single-page calculator app built with React',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: math,
-  //   repo: 'https://github.com/shaqdeff/Math-Magicians',
-  //   demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  // },
-  // {
-  //   id: 'project-4',
-  //   name: 'Movie Metro',
-  //   description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: movie,
-  //   repo: 'https://github.com/shaqdeff/Movie-Metro',
-  //   demo: 'https://movie-metro.netlify.app/',
-  // },
-  // {
-  //   id: 'project-5',
-  //   name: 'Nyeusi Fest Site',
-  //   description:
-  //     'This is a demo concert website for a music festival called Nyeusi.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  // },
+  {
+    id: 'project-9',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  {
+    id: 'project-10',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  {
+    id: 'project-11',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  {
+    id: 'project-12',
+    name: 'BitSpinWin',
+    description:
+      'Platform of Virtual Casino Games with admin and user dashboard, was use Next js',
+    image: leaderboard,
+    repo: null,
+    demo: 'https://bitspinwin.co',
+  },
+  
 ];
 
 export { services, technologies, experiences, projects };

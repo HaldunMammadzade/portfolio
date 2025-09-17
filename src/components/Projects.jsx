@@ -24,6 +24,7 @@ const ProjectCard = ({
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
       } flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`}
+      style={{minWidth: "230px", transition: 'all .3s'}}
       onClick={() => handleClick(id)}>
       <div
         className="absolute top-0 left-0 z-10 bg-jetLight 
@@ -146,7 +147,7 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5" style={{overflowX: 'auto'}}>
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
