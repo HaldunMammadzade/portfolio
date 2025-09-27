@@ -57,6 +57,17 @@ const ExperienceCard = ({ experience }) => (
 );
 
 const Experience = () => {
+  const handleDownloadCV = () => {
+    const pdfUrl = '/assets/documents/Haldun_Mammadzada_CV.pdf';
+  
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Haldun_Mammadzada_CV.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -105,12 +116,7 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                window.open(
-                  'resume link', //paste the link to your resume here
-                  '_blank'
-                )
-              }
+              onClick={handleDownloadCV}
               onMouseOver={() => {
                 document
                   .querySelector('.download-btn')

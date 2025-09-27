@@ -74,7 +74,7 @@ const ProjectCard = ({
             </div>
 
             <h2
-              className="font-bold sm:text-[22px] text-[20px] 
+              className="font-bold sm:text-[18px] text-[16px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">
               {name}
             </h2>

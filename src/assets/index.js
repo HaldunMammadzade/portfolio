@@ -4,7 +4,7 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo.png';
-import logotext from './logo/logo-text-black.png';
+import logotext from './logo/logo.png';
 
 import haldun from './personal/haldun.png';
 
@@ -49,11 +49,20 @@ import software from './company/software.png';
 import div from './company/div.png';
 
 import agros from './projects/agros.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import aictia from './projects/aictia.png';
+import anama from './projects/anama.png';
+import bitbetwin from './projects/bitbetwin.png';
+import bitspinwin from './projects/bitspinwin.png';
+import githubS from './projects/github.png';
+import invoice from './projects/invoice.png';
+import layf from './projects/layf.png';
+import royal from './projects/royal.png';
+import smart from './projects/smart.png';
+import uluagro from './projects/uluagro.png';
+import vac from './projects/vac.png';
+import win777 from './projects/win777.png';
+
+
 
 export {
   bwmap,
@@ -93,11 +102,19 @@ export {
   tailwind,
   typescript,
   agros,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  aictia ,
+  anama,
+  bitbetwin,
+  bitspinwin,
+  githubS,
+  invoice,
+  layf,
+  royal,
+  smart,
+  uluagro,
+  vac,
+  win777,
+
   va,
   webzool,
   apertech,
