@@ -61,7 +61,7 @@ import smart from './projects/smart.png';
 import uluagro from './projects/uluagro.png';
 import vac from './projects/vac.png';
 import win777 from './projects/win777.png';
-
+import wealthtracker from './projects/wealthtracker.png';
 
 
 export {
@@ -114,6 +114,7 @@ export {
   uluagro,
   vac,
   win777,
+  wealthtracker,
 
   va,
   webzool,

@@ -25,6 +25,7 @@ import {
   bitspinwin,
   githubS,
   invoice,
+  wealthtracker,
   layf,
   royal,
   smart,
@@ -209,9 +210,17 @@ const experiences = [
 
 const projects = [
   {
+    id: '0',
+    name: 'WealthTracker Pro',
+    description: 'Professional investment portfolio management platform for Canadian investors',
+    image: wealthtracker,
+    repo: 'https://github.com/HaldunMammadzade/wealthtracker-pro-app',
+    demo: 'https://wealthtracker-pro-app-irz4.vercel.app/',
+  },
+  {
     id: '1',
     name: 'Invoice Reporter',
-    description: 'A comprehensive platform for invoice reporting and management.',
+    description: 'A comprehensive platform for invoice reporting and management',
     image: invoice,
     repo: null,
     demo: 'https://invoice-reporter.com/',
