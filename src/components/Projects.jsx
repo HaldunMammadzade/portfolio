@@ -41,8 +41,8 @@ const ProjectCard = ({
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[20px] text-[18px] text-timberWolf tracking-[1px]
-        absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
-        leading-none z-20">
+        absolute z-0 left-[50px] lg:left-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+        leading-none z-20 ">
             {name}
           </h3>
         </div>
@@ -147,7 +147,7 @@ const Projects = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5" style={{overflowX: 'auto'}}>
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[180vh] md:min-h-[70vh] gap-5" style={{overflowX: 'auto'}}>
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
